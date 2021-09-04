@@ -1,0 +1,2516 @@
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("./Images/HeaderBgImage.jpg");
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.subscribeButton{
+  display:block
+}
+.accountButton{
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.subscribeButtonContainer, .registrationButtonContainer,.hiringButtonContainer{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+}
+.nav-link {
+  cursor: pointer
+}
+
+.applicationTitle, .registrationTitle, .titleHiring {
+  font-family: serif
+}
+
+.cardDiv h5 {
+  text-align: center
+}
+
+.courseButtonDiv {
+  text-align: center;
+}
+
+.internList {
+  font-family: serif;
+}
+
+.contactLabel {
+  text-align: center
+}
+
+.testimonialsImage {
+  filter: brightness(75%)
+}
+
+.mainPageAbout {
+  text-align: center;
+  font-weight: bolder;
+  font-family: serif;
+}
+
+.discordButton, .mentorshipButton {
+  text-align: center;
+  color: white;
+}
+
+.aboutButtonDiv {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.mainHeading {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5em;
+  text-shadow: 1px 1px 1px white;
+}
+
+.learningDescription, .aboutDescription {
+  text-align: justify;
+  font-family: serif;
+}
+
+.learningHeading {
+  font-family: serif;
+  text-align: center;
+}
+
+.mentorCardText {
+  text-align: justify;
+  font-family: serif;
+}
+
+.price {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.mentorCard .card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.socialMediaIcons {
+  color: white;
+}
+
+.fillBackground {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  background-color: rgb(0, 0, 0);
+}
+
+
+.makeStyles-root-1 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.cardText {
+  font-family: serif;
+  text-align: justify;
+}
+
+.courseDescription {
+  font-family: serif;
+  text-align: justify;
+  word-spacing: -2px;
+  font-size: 1.1em;
+  margin-top: 1.7em;
+  line-height: 1.6em;
+}
+
+.courseButtonDiv {
+  margin-top: 2em;
+}
+
+.courseButton:nth-child(2) {
+  margin-left: 2em;
+}
+
+.btn-grad {
+  background-image: linear-gradient(to right, #DC2424 0%, #4A569D 51%, #DC2424 100%)
+}
+
+.btn-grad {
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  margin-top: 2em;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.logoImage {
+  width: 2.9em;
+  height: 3em;
+}
+
+.columns {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.column {
+  scroll-snap-align: start;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 50%;
+}
+
+.carousel {
+  border-radius: 30px 30px;
+  overflow: hidden;
+  margin-bottom: 5em;
+}
+
+.cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 7em;
+}
+
+.aboutComp {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.topSpace {
+  margin-top: 5em;
+}
+
+.aboutCard {
+  background-color: #5351ce;
+}
+
+.internList {
+  margin-top: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.courses {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3.5em;
+}
+
+
+.testimonialsHeading, .about, .discord, .courseTitle, .otherDetails {
+  font-family: serif;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.courseTitle, .otherDetails {
+  font-size: 1.8em;
+}
+
+.course {
+  margin-bottom: 2em;
+}
+
+.otherDetails {
+  padding-bottom: 0.8em;
+}
+
+label {
+  font-weight: bolder;
+}
+
+.complaintsDesc {
+  text-align: center;
+  font-family: serif;
+}
+
+.aboutSubtitle {
+  text-align: center;
+  font-family: serif;
+}
+
+.carousel-content, .registrationFields {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.aboutBlock h4 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#mentorshipRegistration {
+  margin-bottom: 3em;
+}
+
+.btn-grad {
+  padding: 1em 1.5em;
+  font-size: 0.8em;
+  color: white
+}
+
+@-webkit-keyframes text-pop-up-top {
+  0% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+
+.aluminiImage {
+  width: 100%;
+  height: 12em;
+}
+
+.cardDiv {
+  margin-bottom: 2em;
+}
+
+.logoImage {
+  width: 2.3em;
+  height: 2.3em;
+}
+
+.toggleButton, .toggleButtonTwo {
+  width: 1.7em;
+  height: 1.7em;
+  padding-left: 0.08em;
+  padding-top: 0.1em;
+  background-color: white;
+}
+
+.headerButton {
+  font-size: 0.8em;
+}
+
+.mainHeading h1 {
+  font-size: 1.3em;
+}
+
+.mainHeading h3 {
+  font-size: 0.9em;
+}
+
+.courses {
+ 
+  font-weight: bolder;
+  font-size: 2em;
+  text-align: center;
+ 
+}
+.testimonialsHeading{
+  padding-top: 30px;
+  padding-bottom: 0.5em;
+}
+.about {
+  font-size: 2.5em;
+  text-decoration: underline;
+  padding-bottom: 0.5em;
+}
+
+.mainPageAbout {
+  padding-top: 0.7em;
+  font-size: 2.5em;
+  padding-bottom: 0.5em;
+}
+
+.aboutSubtitle {
+  font-size: 1.9em;
+}
+
+.aboutDescription {
+  font-size: 1.2em;
+  padding-top: 1.1em;
+  padding-bottom: 1.4em;
+  word-spacing: -2.3px;
+}
+
+.cardText {
+  word-spacing: -2px;
+  font-size: 1.1em;
+}
+
+.aboutButton {
+  font-size: 0.8em;
+}
+
+.nav-link {
+  font-size: 1em;
+}
+
+.aboutBlock {
+  padding-top: 2em;
+}
+
+.courseImage {
+  height: 10em;
+}
+
+#courses {
+  text-align: center;
+}
+
+.courseButton {
+  font-size: 0.8em;
+}
+
+.courseCards {
+  margin-bottom: 2em;
+}
+
+.courseHeading {
+  text-align: center;
+  font-size: 1.2em;
+  font-family: serif;
+}
+
+.testimonialsHeading {
+  font-size: 1.9em;
+  padding-bottom: 0.7em;
+}
+
+.discord {
+  font-size: 1.9em;
+  padding-bottom: 0.7em;
+}
+
+#courseBenefits {
+  font-weight: bolder;
+  text-align: center;
+  font-family: serif;
+  font-size: 1.9em;
+  padding-bottom: 0.7em;
+}
+
+.discordText {
+  margin-top: 2em;
+  font-size: 1.3em;
+}
+
+.courseSummary {
+  font-family: serif;
+  font-weight: bolder;
+  font-size: 1.3em;
+}
+
+.summaryHeading {
+  font-family: serif;
+  font-size: 1.1em;
+}
+
+.summaryDetails {
+  font-family: serif;
+  font-size: 1em;
+  text-align: justify;
+  word-spacing: -2px;
+}
+
+.summary {
+  text-align: justify;
+  font-family: serif;
+  font-size: 1em;
+}
+
+.carousel .carousel-item {
+  font-family: serif;
+  height: 21em;
+}
+
+.carousel-content h4 {
+  font-size: 0.9em;
+  padding-left: 2.2em;
+  padding-right: 2.2em;
+  padding-bottom: 1em;
+  text-align: justify;
+  padding-top: 3em;
+  word-spacing: 2px;
+  z-index: 20;
+  color: white;
+}
+
+.carousel-content p {
+  text-align: center;
+  word-spacing: -2px;
+  font-size: 0.8em;
+  z-index: 20;
+  color: white;
+  padding-left: 2.2em;
+  padding-right: 2.2em;
+}
+
+.footerInput {
+  border-bottom: 2px solid white;
+}
+
+.submitButton {
+  margin-top: 1.7em;
+}
+
+.carousel-content .h2Heading {
+  text-align: center;
+  font-size: 0.8em;
+  padding-top: 2em;
+  z-index: 20;
+  color: white;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+.carousel-content .h5Heading {
+  font-size: 0.8em;
+  text-align: justify;
+  z-index: 20;
+  color: white;
+  padding-left: 2.3em;
+  padding-right: 2.3em;
+}
+
+.carousel-content .h6Heading {
+  font-size: 0.8em;
+  z-index: 20;
+  color: white;
+  padding-left: 2.3em;
+  padding-right: 2.3em;
+}
+
+.carousel-content .mentors {
+  padding-left: 2.3em;
+  padding-right: 2.3em;
+  font-size: 0.9em;
+  padding-top: 4em;
+  z-index: 20;
+  color: white;
+  text-align: center;
+}
+
+.carousel-content .mentorDescription {
+  padding-left: 2.3em;
+  padding-right: 2.3em;
+  font-size: 0.9em;
+  padding-top: 1em;
+  z-index: 20;
+  color: white;
+  text-align: center;
+}
+
+.carousel-content .applyNow {
+  padding-left: 2.3em;
+  padding-right: 2.3em;
+  font-size: 0.8em;
+  padding-top: 1em;
+  z-index: 20;
+  color: white;
+  text-align: center;
+}
+
+.titleHiring {
+  text-decoration: underLine;
+  padding-bottom: 0.5em;
+  text-align: center;
+  font-size: 1.8em
+}
+
+.hiringDescription p, .certificationDescription {
+  font-family: serif;
+  font-size: 1.07em;
+  line-height: 1.7em;
+  text-indent: 2em;
+  text-align: justify;
+  word-spacing: -2px;
+}
+
+.divider {
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+.title {
+  font-size: 2.1em;
+  padding-top: 1.3em;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.internList ul li {
+  font-size: 1.04em;
+  padding-top: 0.5em
+}
+
+.applicationTitle {
+  font-size: 1.6em;
+  font-weight: bolder;
+  padding-top: 1.2em;
+  text-align: center;
+}
+
+.registrationTitle {
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.registrationLabel, .checkBox {
+  font-weight: bolder;
+  text-align: center;
+  font-size: 0.9em;
+  padding-top: 1em;
+  display: block;
+}
+
+.hiringSubmitButton, .subscribeButton, .registerButton {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.contactTitle {
+  font-family: serif;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2.1em;
+}
+
+.registrationDiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1em;
+  align-items: center
+}
+
+.paymentImage {
+  margin-top: 2em;
+}
+
+select, .paymentID, .info, .internship {
+  background: transparent;
+  width: 13em;
+  padding: 5px;
+  font-size: 15px;
+  line-height: 1;
+  outline: none;
+  border-radius: 20px 20px;
+  height: 34px;
+  font-family: helvetica-roman;
+  background-color: rgba(0, 0, 0, 0);
+  text-indent: 0.01px;
+  text-overflow: '';
+}
+
+.certificationTitle {
+  text-decoration: underline;
+  font-size: 1.6em;
+  text-align: center;
+  padding-top: 0.3em;
+  text-transform: uppercase;
+  font-family: serif;
+  padding-bottom: 0.6em;
+  font-weight: bolder;
+}
+
+.moreNavLink {
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 1em;
+}
+
+.moreNavLink[tabindex]:focus {
+  background-color: black;
+  color: white;
+  border-color: black;
+  border: none;
+  font-size: 1em;
+}
+
+.certificationDescription {
+  padding-top: 0.4em;
+}
+
+.intern {
+  text-align: left;
+  font-size: 1.4em;
+}
+
+.aluminiTitle {
+  font-family: serif;
+  font-weight: bolder;
+  margin-bottom: 1em;
+  font-size: 2.2em;
+  text-align: center;
+}
+
+.subtitle {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left: 0.05em;
+  padding-right: 0.05em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bolder;
+}
+
+.learningHeading {
+  padding-top: 1em;
+  padding-bottom: 0.3em;
+}
+
+.learningDescription {
+  word-spacing: -2px;
+  font-size: 1.1em;
+  line-height: 1.6em;
+}
+
+.learningBlock {
+  margin-bottom: 2em;
+}
+
+.whyTen {
+  font-size: 3em;
+  text-align: center;
+}
+
+.tenBlock {
+  margin-top: 2.8em;
+}
+
+.mentorCardText {
+  font-size: 1em;
+  word-spacing: -2.2px;
+  line-height: 1.6em;
+}
+
+.mentorCard {
+  margin-bottom: 2em;
+}
+
+
+.careerForum {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: serif;
+  font-weight: bolder;
+  padding-bottom: 0.4em;
+}
+
+.complaintsHeading {
+  font-weight: bolder;
+  text-align: center;
+  font-size: 2.8em;
+  font-family: serif;
+  padding-bottom: 2em;
+  padding-bottom: 1em;
+}
+
+.complaintsDesc {
+  font-size: 1.2em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+.mentorshipTitle {
+  padding-top: 0.3em;
+  padding-bottom: 0.6em;
+  text-align: center;
+  font-family: serif;
+  font-weight: bolder;
+}
+
+.logoImageOne {
+  width: 2.4em;
+  height: 2.4em;
+}
+
+@media (min-width:241px) and (max-width:280px) {
+  .mentorCardText {
+    font-size: 1.1em;
+    line-height: 1.6em;
+  }
+  .courseSummary {
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 1.4em;
+  }
+  .summary {
+    font-size: 1.1em;
+  }
+  .discordText {
+    font-size: 1.5em;
+  }
+  .carousel .carousel-item {
+    height: 17em;
+  }
+  .info, .internship {
+    width: 15em;
+  }
+  .toggleButton, .toggleButtonTwo {
+    width: 1.9em;
+    height: 1.9em;
+    padding-left: 0.16em;
+    padding-top: 0.1em;
+  }
+}
+
+@media (min-width:281px) and (max-width:320px) {
+  .aluminiImage {
+    height: 17em
+  }
+  .registrationLabel {
+    font-size: 1em;
+  }
+  .mainHeading h1 {
+    font-size: 1.5em;
+  }
+  .mainHeading h3 {
+    font-size: 1.05em;
+  }
+  .courseSummary {
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 1.5em;
+  }
+  .summaryDetails {
+    font-size: 1.05em;
+  }
+  .summaryHeading {
+    font-size: 1.2em;
+  }
+  .logoImage {
+    width: 2.8em;
+    height: 2.5em;
+  }
+  .logoImageOne {
+    width: 2.8em;
+    height: 2.6em;
+  }
+  .summary {
+    font-size: 1.2em;
+  }
+  .discordText {
+    font-size: 1.6em;
+  }
+  .carousel .carousel-item {
+    height: 21em;
+  }
+  .info, .internship {
+    width: 15em;
+  }
+  .complaintsDesc {
+    font-size: 1.3em;
+  }
+  .testimonialsHeading {
+    font-size: 2.3em;
+    padding-bottom: 0.7em;
+  }
+  #courseBenefits, .discord, .mainPageAbout, .courses {
+    font-size: 2.3em;
+    padding-bottom: 0.7em;
+  }
+  .cardText {
+    font-size: 1.2em;
+  }
+  .carousel-content h4 {
+    font-size: 1.1em;
+    padding-left: 2.2em;
+    padding-right: 2.2em;
+    padding-bottom: 1em;
+    padding-top: 3em;
+  }
+  .carousel-content p {
+    font-size: 1em;
+    padding-left: 2.2em;
+    padding-right: 2.2em;
+  }
+  .carousel-content .h2Heading {
+    font-size: 1.1em;
+    padding-top: 1.1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+  .carousel-content .h5Heading {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1em;
+  }
+  .carousel-content .h6Heading {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1em;
+    text-align: justify;
+  }
+  .carousel-content .mentors {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1.4em;
+    padding-top: 2em;
+  }
+  .carousel-content .mentorDescription {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1.2em;
+    padding-top: 1em;
+  }
+  .carousel-content .applyNow {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 0.9em;
+    padding-top: 1em;
+  }
+}
+
+@media (min-width:321px) and (max-width:360px) {
+  .aluminiImage {
+    height: 17em
+  }
+  .carousel-content h4 {
+    font-size: 1.1em;
+    padding-left: 2.2em;
+    padding-right: 2.2em;
+    padding-bottom: 1em;
+    padding-top: 3em;
+  }
+  .complaintsHeading {
+    font-size: 3em;
+  }
+  .aboutDescription {
+    font-size: 1.2em;
+  }
+  .complaintsDesc {
+    font-size: 1.5em;
+  }
+  .carousel-content p {
+    font-size: 1em;
+    padding-left: 2.2em;
+    padding-right: 2.2em;
+  }
+  .carousel-content .h2Heading {
+    font-size: 1.1em;
+    padding-top: 1.1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+  .carousel-content .h5Heading {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1em;
+  }
+  .carousel-content .h6Heading {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1em;
+    text-align: justify;
+  }
+  .carousel-content .mentors {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1.4em;
+    padding-top: 2em;
+  }
+  .carousel-content .mentorDescription {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1.2em;
+    padding-top: 1em;
+  }
+  .carousel-content .applyNow {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 0.9em;
+    padding-top: 1em;
+  }
+  .toggleButton, .toggleButtonTwo {
+    width: 2.1em;
+    height: 2.1em;
+    padding-left: 0.21em;
+    padding-top: 0.1em;
+    border: 2px solid black;
+  }
+  .mainHeading h1 {
+    font-size: 1.7em;
+  }
+  .mainHeading h3 {
+    font-size: 1.15em;
+  }
+  .cardText {
+    font-size: 1.28em;
+  }
+  .courseHeading {
+    font-size: 1.4em;
+  }
+  .courseSummary {
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 1.6em;
+  }
+  .nav-link, .moreNavLink {
+    font-size: 1.2em;
+  }
+  .certificationTitle {
+    font-size: 1.7em;
+  }
+  .intern {
+    font-size: 1.5em;
+  }
+  .certificationDescription {
+    font-size: 1.18em;
+  }
+  .logoImage {
+    width: 2.8em;
+    height: 2.5em;
+  }
+  .logoImageOne {
+    width: 2.8em;
+    height: 2.8em;
+  }
+  .summary {
+    font-size: 1.3em;
+  }
+  .discordText {
+    font-size: 1.6em;
+  }
+  .carousel .carousel-item {
+    height: 19em;
+  }
+  .info, .internship {
+    width: 19em;
+  }
+  #courseBenefits, .discord, .testimonialsHeading, .mainPageAbout, .courses {
+    font-size: 2.3em;
+    padding-bottom: 0.7em;
+  }
+}
+
+@media (min-width:361px) and (max-width:384px) {
+  .aluminiImage {
+    height: 19em
+  }
+  .discordButton {
+    margin-top: 1.5em
+  }
+  .mentorCardText {
+    font-size: 1.1em;
+  }
+  .careerForum {
+    font-size: 1.9em;
+  }
+  .headerButton {
+    font-size: 1em;
+  }
+  .carousel-content h4 {
+    font-size: 1.1em;
+    padding-left: 2.2em;
+    padding-right: 2.2em;
+    padding-bottom: 1em;
+    padding-top: 3em;
+  }
+  .complaintsHeading {
+    font-size: 3em;
+  }
+  .aboutDescription {
+    font-size: 1.2em;
+  }
+  .complaintsDesc {
+    font-size: 1.5em;
+  }
+  .carousel-content p {
+    font-size: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+  .carousel-content .h2Heading {
+    font-size: 1.1em;
+    padding-top: 1.1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+  .carousel-content .h5Heading {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1em;
+  }
+  .carousel-content .h6Heading {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1em;
+    text-align: justify;
+  }
+  .carousel-content .mentors {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1.4em;
+    padding-top: 2em;
+  }
+  .carousel-content .mentorDescription {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1.2em;
+    padding-top: 1em;
+  }
+  .carousel-content .applyNow {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 0.9em;
+    padding-top: 1em;
+  }
+  .toggleButton, .toggleButtonTwo {
+    width: 2.1em;
+    height: 2.1em;
+    padding-left: 0.21em;
+    padding-top: 0.1em;
+    border: 2px solid black;
+  }
+  .mainHeading {
+    margin-top: 4em;
+  }
+  .mainHeading h1 {
+    font-size: 1.9em;
+  }
+  .mainHeading h3 {
+    font-size: 1.3em;
+  }
+  .cardText {
+    font-size: 1.28em;
+  }
+  .courseHeading {
+    font-size: 1.4em;
+  }
+  .courseSummary {
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 1.6em;
+  }
+  .nav-link, .moreNavLink {
+    font-size: 1.2em;
+  }
+  .certificationTitle {
+    font-size: 1.7em;
+  }
+  .intern {
+    font-size: 1.5em;
+  }
+  .certificationDescription {
+    font-size: 1.18em;
+  }
+  .logoImage {
+    width: 2.8em;
+    height: 2.5em;
+  }
+  .logoImageOne {
+    width: 2.8em;
+    height: 2.8em;
+  }
+  .summary {
+    font-size: 1.3em;
+  }
+  .discordText {
+    font-size: 1.6em;
+  }
+  .carousel .carousel-item {
+    height: 19em;
+  }
+  .info, .internship {
+    width: 19.5em;
+  }
+  #courseBenefits, .discord, .testimonialsHeading, .mainPageAbout, .courses {
+    font-size: 2.3em;
+    padding-bottom: 0.7em;
+  }
+}
+
+@media (min-width:385px) and (max-width:414px) {
+  .aluminiImage {
+    height: auto
+  }
+  .learningHeading {
+    font-size: 1.9em;
+  }
+  .learningDescription {
+    font-size: 1.3em;
+  }
+  .mentorCardText {
+    font-size: 1.3em;
+  }
+  .headerButton {
+    font-size: 1em;
+  }
+  .carousel .carousel-item {
+    height: 22em;
+  }
+  .carousel-content h4 {
+    font-size: 1.3em;
+    padding-left: 2.2em;
+    padding-right: 2.2em;
+    padding-bottom: 1em;
+    padding-top: 3em;
+  }
+  .complaintsHeading {
+    font-size: 3em;
+  }
+  .aboutDescription {
+    font-size: 1.2em;
+  }
+  .complaintsDesc {
+    font-size: 1.5em;
+  }
+  .carousel-content p {
+    font-size: 1.1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+  .carousel-content .h2Heading {
+    font-size: 1.3em;
+    padding-top: 1.1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+  .carousel-content .h5Heading {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1.17em;
+  }
+  .carousel-content .h6Heading {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1.17em;
+    text-align: justify;
+  }
+  .carousel-content .mentors {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1.5em;
+    padding-top: 2em;
+  }
+  .carousel-content .mentorDescription {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1.4em;
+    padding-top: 1em;
+  }
+  .subtitle {
+    font-size: 1.5em;
+  }
+  .learningDescription {
+    font-size: 1.1em;
+  }
+  .mentorCardText {
+    font-size: 1.1em;
+  }
+  .carousel-content .applyNow {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1em;
+    padding-top: 1em;
+  }
+  .toggleButton, .toggleButtonTwo {
+    width: 2.1em;
+    height: 2.1em;
+    padding-left: 0.21em;
+    padding-top: 0.1em;
+    border: 2px solid black;
+  }
+  .mainHeading {
+    margin-top: 4em;
+  }
+  .mainHeading h1 {
+    font-size: 1.99em;
+  }
+  .mainHeading h3 {
+    font-size: 1.32em;
+  }
+  .cardText {
+    font-size: 1.28em;
+  }
+  .courseHeading {
+    font-size: 1.4em;
+  }
+  .courseSummary {
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 1.6em;
+  }
+  .nav-link, .moreNavLink {
+    font-size: 1.2em;
+  }
+  .certificationTitle {
+    font-size: 1.7em;
+  }
+  .intern {
+    font-size: 1.5em;
+  }
+  .certificationDescription {
+    font-size: 1.18em;
+  }
+  .logoImage {
+    width: 2.8em;
+    height: 2.5em;
+  }
+  .logoImageOne {
+    width: 2.8em;
+    height: 2.8em;
+  }
+  .summary {
+    font-size: 1.3em;
+  }
+  .discordText {
+    font-size: 1.7em;
+  }
+  .info, .internship {
+    width: 20.4em;
+  }
+  .careerForum {
+    font-size: 2em;
+  }
+  #courseBenefits, .discord, .testimonialsHeading, .mainPageAbout, .courses {
+    font-size: 2.3em;
+    padding-bottom: 0.7em;
+  }
+}
+
+@media (min-width:414px) and (max-width:480px) {
+  .internList {
+    font-size: 1.1em;
+  }
+  .aluminiImage {
+    height: auto;
+  }
+  .contactLabel {
+    font-size: 1.2em;
+    font-family: serif;
+  }
+  .contactInput {
+    width: 20em
+  }
+  .hiringDescription {
+    font-size: 1.1em;
+    font-family: serif;
+  }
+  .aboutButton {
+    font-size: 1em;
+  }
+  .headerButton {
+    font-size: 1em;
+  }
+  .carousel .carousel-item {
+    height: 22em;
+  }
+  .carousel-content h4 {
+    font-size: 1.3em;
+    padding-left: 2.2em;
+    padding-right: 2.2em;
+    padding-bottom: 1em;
+    padding-top: 3em;
+  }
+  .complaintsHeading {
+    font-size: 3em;
+  }
+  .aboutDescription {
+    font-size: 1.2em;
+  }
+  .complaintsDesc {
+    font-size: 1.5em;
+  }
+  .carousel-content p {
+    font-size: 1.1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+  .carousel-content .h2Heading {
+    font-size: 1.3em;
+    padding-top: 1.1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+  .carousel-content .h5Heading {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1.17em;
+  }
+  .carousel-content .h6Heading {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1.17em;
+    text-align: justify;
+  }
+  .carousel-content .mentors {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1.5em;
+    padding-top: 2em;
+  }
+  .carousel-content .mentorDescription {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1.4em;
+    padding-top: 1em;
+  }
+  .subtitle {
+    font-size: 1.5em;
+  }
+  .learningHeading {
+    font-size: 1.9em;
+  }
+  .learningDescription {
+    font-size: 1.3em;
+  }
+  .mentorCardText {
+    font-size: 1.3em;
+  }
+  .carousel-content .applyNow {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1em;
+    padding-top: 1em;
+  }
+  .toggleButton, .toggleButtonTwo {
+    width: 2.1em;
+    height: 2.1em;
+    padding-left: 0.21em;
+    padding-top: 0.1em;
+    border: 2px solid black;
+  }
+  .mainHeading {
+    margin-top: 4em;
+  }
+  .mainHeading h1 {
+    font-size: 1.99em;
+  }
+  .mainHeading h3 {
+    font-size: 1.32em;
+  }
+  .cardText {
+    font-size: 1.28em;
+  }
+  .courseHeading {
+    font-size: 1.4em;
+  }
+  .courseSummary {
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 1.6em;
+  }
+  .nav-link, .moreNavLink {
+    font-size: 1.2em;
+  }
+  .certificationTitle {
+    font-size: 1.7em;
+  }
+  .intern {
+    font-size: 1.5em;
+  }
+  .certificationDescription {
+    font-size: 1.18em;
+  }
+  .logoImage {
+    width: 2.8em;
+    height: 2.5em;
+  }
+  .logoImageOne {
+    width: 2.8em;
+    height: 2.8em;
+  }
+  .summary {
+    font-size: 1.3em;
+  }
+  .discordText {
+    font-size: 1.7em;
+  }
+  .info, .internship {
+    width: 20.4em;
+  }
+  .careerForum {
+    font-size: 2em;
+  }
+  .courseImage {
+    height: 13em;
+  }
+  #courseBenefits, .discord, .testimonialsHeading, .mainPageAbout, .courses {
+    font-size: 2.3em;
+    padding-bottom: 0.7em;
+  }
+}
+
+@media (min-width:481px) and (max-width:600px) {
+  .contactTitle {
+    margin-bottom: 1em;
+  }
+  .contactInput {
+    width: 26em;
+  }
+  .contactLabel {
+    text-align: left;
+  }
+  .hiringDescription {
+    font-size: 1.3em;
+    font-family: serif;
+  }
+  .aboutButton {
+    font-size: 1em;
+  }
+  .headerButton {
+    font-size: 1em;
+  }
+  .carousel .carousel-item {
+    height: 22em;
+  }
+  .carousel-content h4 {
+    font-size: 1.3em;
+    padding-left: 2.2em;
+    padding-right: 2.2em;
+    padding-bottom: 1em;
+    padding-top: 3em;
+  }
+  .complaintsHeading {
+    font-size: 3em;
+  }
+  .aboutDescription {
+    font-size: 1.2em;
+  }
+  .complaintsDesc {
+    font-size: 1.5em;
+  }
+  .carousel-content p {
+    font-size: 1.1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+  .carousel-content .h2Heading {
+    font-size: 1.3em;
+    padding-top: 1.1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+  .carousel-content .h5Heading {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1.17em;
+  }
+  .carousel-content .h6Heading {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1.17em;
+    text-align: justify;
+  }
+  .carousel-content .mentors {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1.5em;
+    padding-top: 2em;
+  }
+  .carousel-content .mentorDescription {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1.4em;
+    padding-top: 1em;
+  }
+  .internList {
+    font-size: 1.3em;
+  }
+  .internship {
+    width: 20em;
+  }
+  .subtitle {
+    font-size: 1.5em;
+  }
+  .learningHeading {
+    font-size: 1.9em;
+  }
+  .learningDescription {
+    font-size: 1.3em;
+  }
+  .mentorCardText {
+    font-size: 1.3em;
+  }
+  .carousel-content .applyNow {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1em;
+    padding-top: 1em;
+  }
+  .toggleButton, .toggleButtonTwo {
+    width: 2.1em;
+    height: 2.1em;
+    padding-left: 0.21em;
+    padding-top: 0.1em;
+    border: 2px solid black;
+  }
+  .mainHeading {
+    margin-top: 4em;
+  }
+  .mainHeading h1 {
+    font-size: 2em;
+  }
+  .mainHeading h3 {
+    font-size: 1.4em;
+  }
+  .cardText {
+    font-size: 1.28em;
+  }
+  .courseHeading {
+    font-size: 1.4em;
+  }
+  .courseSummary {
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 1.6em;
+  }
+  .nav-link, .moreNavLink {
+    font-size: 1.2em;
+  }
+  .certificationTitle {
+    font-size: 1.7em;
+  }
+  .intern {
+    font-size: 1.5em;
+  }
+  .certificationDescription {
+    font-size: 1.18em;
+  }
+  .logoImage {
+    width: 2.8em;
+    height: 2.5em;
+  }
+  .logoImageOne {
+    width: 2.8em;
+    height: 2.8em;
+  }
+  .summary {
+    font-size: 1.3em;
+  }
+  .discordText {
+    font-size: 1.7em;
+  }
+  .info {
+    width: 20.4em;
+  }
+  .careerForum {
+    font-size: 2em;
+  }
+  .courseImage {
+    height: 13em;
+  }
+  #courseBenefits, .discord, .testimonialsHeading, .mainPageAbout, .courses {
+    font-size: 2.3em;
+    padding-bottom: 0.7em;
+  }
+  .topSpace {
+    margin-top: 6em;
+  }
+  .titleHiring {
+    font-size: 2em;
+    margin-bottom: 0.5em
+  }
+  .aluminiImage {
+    height: auto
+  }
+}
+
+@media (min-width:601px) and (max-width:720px) {
+  .subscribeContainer {
+    margin-bottom: 2em;
+  }
+  .aboutDescription {
+    text-indent: 3em;
+    font-size: 1.4em
+  }
+  .aboutSubtitle {
+    font-weight: bolder;
+    font-size: 2em;
+  }
+  .contactTitle {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+  }
+  .titleHiring {
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+  }
+  .title {
+    font-weight: bolder;
+    font-size: 3em;
+  }
+  .internship {
+    width: 25em
+  }
+  .internList {
+    font-size: 1.3em;
+  }
+  
+  .registrationLabel {
+    font-size: 1.2em;
+  }
+  .hiringDescription {
+    font-size: 1.3em;
+    font-family: serif;
+  }
+  .aboutButton {
+    font-size: 1em;
+  }
+  .headerButton {
+    font-size: 1em;
+  }
+  .carousel .carousel-item {
+    height: 22em;
+  }
+  .carousel-content h4 {
+    font-size: 1.3em;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-bottom: 1em;
+    padding-top: 3em;
+  }
+  .complaintsHeading {
+    font-size: 3em;
+  }
+  .complaintsDesc {
+    font-size: 1.5em;
+  }
+  .carousel-content p {
+    font-size: 1.1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+  .carousel-content .h2Heading {
+    font-size: 1.3em;
+    padding-top: 1.1em;
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+  .carousel-content .h5Heading {
+    padding-left: 4em;
+    padding-right: 4em;
+    font-size: 1.17em;
+  }
+  .carousel-content .h6Heading {
+    padding-left: 4em;
+    padding-right: 4em;
+    font-size: 1.17em;
+    text-align: justify;
+  }
+  .carousel-content .mentors {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1.5em;
+    padding-top: 2em;
+  }
+  .carousel-content .mentorDescription {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1.4em;
+    padding-top: 1em;
+  }
+  .subtitle {
+    font-size: 1.8em;
+  }
+  .learningHeading {
+    font-size: 1.9em;
+  }
+  .learningDescription {
+    font-size: 1.3em;
+  }
+  .mentorCardText {
+    font-size: 1.3em;
+  }
+  .carousel-content .applyNow {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1em;
+    padding-top: 1em;
+  }
+  .toggleButton, .toggleButtonTwo {
+    width: 2.1em;
+    height: 2.1em;
+    padding-left: 0.21em;
+    padding-top: 0.1em;
+    border: 2px solid black;
+  }
+  .mainHeading {
+    margin-top: 4.1em;
+  }
+  .mainHeading h1 {
+    font-size: 2.4em;
+  }
+  .mainHeading h3 {
+    font-size: 1.6em;
+  }
+  .cardText {
+    font-size: 1.3em;
+  }
+  .courseHeading {
+    font-size: 1.4em;
+  }
+  .courseSummary {
+    font-weight: bolder;
+    font-size: 1.66em;
+  }
+  .nav-link, .moreNavLink {
+    font-size: 1.2em;
+  }
+  .certificationTitle {
+    font-size: 2.2em;
+  }
+  .intern {
+    font-size: 1.5em;
+  }
+  .certificationDescription {
+    font-size: 1.15em;
+  }
+  .logoImage {
+    width: 2.8em;
+    height: 2.5em;
+  }
+  .logoImageOne {
+    width: 2.8em;
+    height: 2.8em;
+  }
+  .summary {
+    font-size: 1.3em;
+  }
+  .discordText {
+    font-size: 1.9em;
+  }
+  .info {
+    width: 25em;
+  }
+  .careerForum {
+    font-size: 2em;
+  }
+  .courseImage {
+    height: 13em;
+  }
+  .applicationTitle {
+    font-size: 2.9em;
+  }
+  #courseBenefits, .discord, .testimonialsHeading, .mainPageAbout, .courses {
+    font-size: 2.3em;
+    padding-bottom: 0.7em;
+  }
+}
+
+@media (min-width:721px) and (max-width:1440px) {
+  .mentorshipTitle{
+    font-size: 3.2em;
+  }
+  .subscribeContainer {
+    margin-bottom: 2em;
+  }
+  .titleHiring {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-size: 3em;
+  }
+  .about {
+    margin-top: 1em;
+  }
+  .aboutDescription {
+    text-indent: 3em;
+    font-size: 1.6em;
+  }
+  .aboutSubtitle {
+    font-weight: bolder;
+    font-size: 3em;
+  }
+  .hiringDescription {
+    font-size: 1.5em;
+    font-family: serif;
+  }
+  .aboutButton {
+    font-size: 1em;
+  }
+  .headerButton {
+    font-size: 1em;
+  }
+  .carousel .carousel-item {
+    height: 26em;
+  }
+  .carousel-content h4 {
+    font-size: 1.7em;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-bottom: 1em;
+    padding-top: 3em;
+  }
+  .complaintsHeading {
+    font-size: 4em;
+  }
+  .complaintsDesc {
+    font-size: 2em;
+  }
+  .carousel-content p {
+    font-size: 1.4em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+  .carousel-content .h2Heading {
+    font-size: 2em;
+    padding-top: 1.7em;
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+  .carousel-content .h5Heading {
+    padding-left: 5em;
+    padding-right: 5em;
+    font-size: 1.6em;
+    padding-top: 1em;
+  }
+  .carousel-content .h6Heading {
+    padding-left: 5em;
+    padding-right: 5em;
+    font-size: 1.6em;
+    padding-top: 0.5em;
+    text-align: justify;
+  }
+  .carousel-content .mentors {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 2.2em;
+    padding-top: 2.7em;
+  }
+  .carousel-content .mentorDescription {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1.8em;
+    padding-top: 1em;
+  }
+  .subtitle {
+    font-size: 1.8em;
+  }
+  .mentorCardText {
+    font-size: 1.4em;
+    word-spacing: -3px;
+  }
+  .registerButton {
+    font-size: 1.4em;
+  }
+  .contactTitle {
+    font-size: 3em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+  .contactContainer {
+    width: 30em
+  }
+  .contactLabel {
+    font-size: 1em
+  }
+  .contactInput {
+    width: 24em;
+  }
+  .carousel-content .applyNow {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1em;
+    padding-top: 1em;
+  }
+  .toggleButton, .toggleButtonTwo {
+    width: 2.1em;
+    height: 2.1em;
+    padding-left: 0.21em;
+    padding-top: 0.1em;
+    border: 2px solid black;
+  }
+  .mainHeading {
+    margin-top: 4em;
+  }
+  .mainHeading h1 {
+    font-size: 4em;
+  }
+  .headerButton, .aboutButton {
+    font-size: 1.5em
+  }
+  .mainHeading h3 {
+    font-size: 1.7em;
+  }
+  .cardText {
+    font-size: 1.3em;
+  }
+  .courseHeading {
+    font-size: 1.4em;
+  }
+  .courseSummary {
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 1.66em;
+  }
+  .nav-link, .moreNavLinkTwo {
+    font-size: 1.4em;
+  }
+  .moreNavLinkOne {
+    font-size: 1.1em
+  }
+  .certificationTitle {
+    font-size: 2.2em;
+  }
+  .intern {
+    font-size: 1.5em;
+  }
+  .certificationDescription {
+    font-size: 1.15em;
+  }
+  .logoImage {
+    width: 2.8em;
+    height: 2.5em;
+  }
+  .logoImageOne {
+    width: 2.8em;
+    height: 2.8em;
+  }
+  .summary {
+    font-size: 1.3em;
+  }
+  .discordText {
+    font-size: 1.9em;
+  }
+  .info, .internship {
+    width: 30em;
+  }
+  .registrationLabel, .checkBox {
+    font-size: 1.3em;
+  }
+  .hiringSubmitButton {
+    font-size: 1.5em;
+  }
+  .subscribeTitle, .companyTitle, .otherLinksTitle {
+    font-size: 1.2em
+  }
+  .dropdown-item {
+    font-size: 1.4em;
+  }
+  .details {
+    font-size: 1.1em;
+  }
+  .learningHeading {
+    font-size: 2.2em;
+    font-weight: bolder;
+  }
+  .learningDescription {
+    font-size: 1.5em;
+  }
+  .careerForum {
+    font-size: 3em;
+  }
+  .courseImage {
+    height: 13em;
+  }
+  .applicationTitle {
+    font-size: 2em;
+  }
+  #courseBenefits, .discord, .testimonialsHeading, .mainPageAbout, .courses {
+    font-size: 3em;
+    padding-bottom: 0.7em;
+  }
+  .complaintsContainer {
+    margin-bottom: 4em;
+  }
+  .discordChannelDiv {
+    Padding-bottom: 3.5em
+  }
+  .internList {
+    font-size: 1.2em;
+  }
+  .title {
+    font-size: 2em;
+    font-weight: bolder;
+  }
+  .applicationTitle {
+    font-size: 2.8em;
+  }
+  .registrationTitle {
+    font-size: 1.3em;
+  }
+  .certificationTitle {
+    font-size: 3em;
+  }
+  .intern {
+    font-size: 2em
+  }
+  .subscribeButton {
+    font-size: 1.4em;
+  }
+  .aluminiTitle {
+    font-size: 3.4em
+  }
+  .certificationDescription {
+    font-size: 1.7em;
+  }
+  .btn-grad {
+    font-size: 1em;
+  }
+  .subtitle {
+    font-size: 2.8em;
+  }
+  .courseDescription {
+    font-size: 1.6em;
+  }
+  .courseTitle {
+    font-size: 3em;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+  }
+  .courseButton {
+    font-size: 1.3em
+  }
+  .otherDetails {
+    font-size: 3em;
+  }
+  .courseSummary {
+    font-size: 2em;
+  }
+  .summaryHeading {
+    font-size: 1.8em;
+  }
+  .summaryDetails {
+    font-size: 1.4em;
+  }
+}
+
+@media (min-width:1441px) {
+  .mentorshipTitle{
+    font-size: 3.2em;
+  }
+  
+  .subscribeContainer {
+    margin-bottom: 2em;
+  }
+  .titleHiring {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-size: 3em;
+  }
+  .about {
+    margin-top: 1em;
+  }
+  .aboutDescription {
+    text-indent: 3em;
+    font-size: 1.6em;
+  }
+  .aboutSubtitle {
+    font-weight: bolder;
+    font-size: 3em;
+  }
+  .hiringDescription {
+    font-size: 1.5em;
+    font-family: serif;
+  }
+  .aboutButton {
+    font-size: 1em;
+  }
+  .headerButton {
+    font-size: 1em;
+  }
+  .carousel .carousel-item {
+    height: 26em;
+  }
+  .carousel-content h4 {
+    font-size: 1.7em;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-bottom: 1em;
+    padding-top: 3em;
+  }
+  .complaintsHeading {
+    font-size: 4em;
+  }
+  .complaintsDesc {
+    font-size: 2em;
+  }
+  .carousel-content p {
+    font-size: 1.4em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+  .carousel-content .h2Heading {
+    font-size: 2em;
+    padding-top: 1.7em;
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+  .carousel-content .h5Heading {
+    padding-left: 5em;
+    padding-right: 5em;
+    font-size: 1.6em;
+    padding-top: 1em;
+  }
+  .carousel-content .h6Heading {
+    padding-left: 5em;
+    padding-right: 5em;
+    font-size: 1.6em;
+    padding-top: 0.5em;
+    text-align: justify;
+  }
+  .carousel-content .mentors {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 2.2em;
+    padding-top: 2.7em;
+  }
+  .carousel-content .mentorDescription {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1.8em;
+    padding-top: 1em;
+  }
+  .subtitle {
+    font-size: 1.8em;
+  }
+  .mentorCardText {
+    font-size: 1.4em;
+    word-spacing: -3px;
+  }
+  .registerButton {
+    font-size: 1.4em;
+  }
+  .contactTitle {
+    font-size: 3em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+  .contactContainer {
+    width: 30em
+  }
+  .contactLabel {
+    font-size: 1em
+  }
+  .contactInput {
+    width: 24em;
+  }
+  .carousel-content .applyNow {
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    font-size: 1em;
+    padding-top: 1em;
+  }
+  .toggleButton, .toggleButtonTwo {
+    width: 2.1em;
+    height: 2.1em;
+    padding-left: 0.21em;
+    padding-top: 0.1em;
+    border: 2px solid black;
+  }
+  .mainHeading {
+    margin-top: 4em;
+  }
+  .mainHeading h1 {
+    text-shadow: 0px 3px 0px #b2a98f, 0px 14px 10px rgba(0, 0, 0, 0.15), 0px 24px 2px rgba(0, 0, 0, 0.1), 0px 34px 30px rgba(0, 0, 0, 0.1);
+    letter-spacing: 2px;
+    font-size: 4em;
+  }
+  .headerButton, .aboutButton {
+    font-size: 1.5em
+  }
+  .mainHeading h3 {
+    font-size: 1.7em;
+  }
+  .cardText {
+    font-size: 1.3em;
+  }
+  .courseHeading {
+    font-size: 1.4em;
+  }
+  .courseSummary {
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 1.66em;
+  }
+  .nav-link, .moreNavLinkTwo {
+    font-size: 1.4em;
+  }
+  .moreNavLinkOne {
+    font-size: 1.1em
+  }
+  .certificationTitle {
+    font-size: 2.2em;
+  }
+  .intern {
+    font-size: 1.5em;
+  }
+  .certificationDescription {
+    font-size: 1.15em;
+  }
+  .logoImage {
+    width: 2.8em;
+    height: 2.5em;
+  }
+  .logoImageOne {
+    width: 2.8em;
+    height: 2.8em;
+  }
+  .summary {
+    font-size: 1.3em;
+  }
+  .discordText {
+    font-size: 1.9em;
+  }
+  .info, .internship {
+    width: 30em;
+  }
+  .registrationLabel, .checkBox {
+    font-size: 1.3em;
+  }
+  .hiringSubmitButton {
+    font-size: 1.5em;
+  }
+  .subscribeTitle, .companyTitle, .otherLinksTitle {
+    font-size: 1.2em
+  }
+  .dropdown-item {
+    font-size: 1.4em;
+  }
+  .details {
+    font-size: 1.1em;
+  }
+  .learningHeading {
+    font-size: 2.2em;
+    font-weight: bolder;
+  }
+  .learningDescription {
+    font-size: 1.5em;
+  }
+  .careerForum {
+    font-size: 3em;
+  }
+  .courseImage {
+    height: 13em;
+  }
+  .applicationTitle {
+    font-size: 2em;
+  }
+  #courseBenefits, .discord, .testimonialsHeading, .mainPageAbout, .courses {
+    font-size: 3em;
+    padding-bottom: 0.7em;
+  }
+  .complaintsContainer {
+    margin-bottom: 4em;
+  }
+  .discordChannelDiv {
+    Padding-bottom: 3.5em
+  }
+  .internList {
+    font-size: 1.2em;
+  }
+  .title {
+    font-size: 2em;
+    font-weight: bolder;
+  }
+  .applicationTitle {
+    font-size: 2.8em;
+  }
+  .registrationTitle {
+    font-size: 1.3em;
+  }
+  .certificationTitle {
+    font-size: 3em;
+  }
+  .intern {
+    font-size: 2em
+  }
+  .subscribeButton {
+    font-size: 1.4em;
+  }
+  .aluminiTitle {
+    font-size: 3.4em
+  }
+  .certificationDescription {
+    font-size: 1.7em;
+  }
+  .btn-grad {
+    font-size: 1em;
+  }
+  .subtitle {
+    font-size: 2.8em;
+  }
+  .courseDescription {
+    font-size: 1.6em;
+  }
+  .courseTitle {
+    font-size: 3em;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+  }
+  .courseButton {
+    font-size: 1.3em
+  }
+  .otherDetails {
+    font-size: 3em;
+  }
+  .courseSummary {
+    font-size: 2em;
+  }
+  .summaryHeading {
+    font-size: 1.8em;
+  }
+  .summaryDetails {
+    font-size: 1.4em;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+.headingOne, .headingTwo {
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0.5rem auto;
+  text-shadow: none;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.headingOne {
+  border-right: 2px solid rgba(17, 17, 17, 0.9);
+  animation: animated-text__1 3s steps(30, end) 1s 1 normal both, animated-cursor__1 500ms steps(30, end) 8;
+}
+
+.headingTwo {
+  border-right: 2px solid rgba(17, 17, 17, 0.9);
+  animation: animated-text__2 3s steps(30, end) 1s 1 normal both, animated-cursor__2 500ms steps(30, end) infinite;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+@keyframes animated-cursor__1 {
+  from {
+    border-right-color: rgba(17, 17, 17, 0.9);
+  }
+  to {
+    border-right-color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+@keyframes animated-cursor__2 {
+  from {
+    border-right-color: rgba(17, 17, 17, 0.9);
+  }
+  to {
+    border-right-color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+@keyframes animated-text__1 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 13em;
+  }
+}
+
+@keyframes animated-text__2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 10.2em;
+  }
+}
+
+@-webkit-keyframes text-pop-up-top {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  }
+}
+
+@keyframes text-pop-up-top {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  }
+}
+
+.mainHeading h1 {
+  -webkit-animation: text-pop-up-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: text-pop-up-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  color: #fff;
+  font-family: serif;
+  text-transform: none;
+  text-align: center;
+}
+
+.divider {
+  position: relative;
+  height: 1px;
+}
+
+.div-transparent:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5%;
+  right: 5%;
+  width: 90%;
+  height: 1px;
+  background-image: linear-gradient(rgb(0, 0, 0), transparent);
+}
+
+.div-dot:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: -9px;
+  left: calc(50% - 9px);
+  width: 18px;
+  height: 18px;
+  background-color: black;
+  border: 1px solid rgb(48, 49, 51);
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 2px white, 0 0 0 4px white;
+}
+
+.para h3 {
+  font-family: monospace;
+}
