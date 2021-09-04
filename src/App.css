@@ -2428,7 +2428,7 @@ select, .paymentID, .info, .internship {
     width: 0;
   }
   to {
-    width: 13em;
+    width: 14em;
   }
 }
 
@@ -2437,7 +2437,7 @@ select, .paymentID, .info, .internship {
     width: 0;
   }
   to {
-    width: 10.2em;
+    width: 11em;
   }
 }
 
