@@ -452,7 +452,8 @@ label {
 
 .carousel .carousel-item {
   font-family: serif;
-  height: 21em;
+  height: auto;
+  padding-bottom: 3em;
 }
 
 .carousel-content h4 {
@@ -776,7 +777,7 @@ select, .paymentID, .info, .internship {
     font-size: 1.5em;
   }
   .carousel .carousel-item {
-    height: 17em;
+    height:auto;
   }
   .info, .internship {
     width: 15em;
@@ -828,7 +829,7 @@ select, .paymentID, .info, .internship {
     font-size: 1.6em;
   }
   .carousel .carousel-item {
-    height: 21em;
+    height:auto;
   }
   .info, .internship {
     width: 15em;
@@ -1007,7 +1008,7 @@ select, .paymentID, .info, .internship {
     font-size: 1.6em;
   }
   .carousel .carousel-item {
-    height: 19em;
+    height:auto;
   }
   .info, .internship {
     width: 19em;
@@ -1144,7 +1145,7 @@ select, .paymentID, .info, .internship {
     font-size: 1.6em;
   }
   .carousel .carousel-item {
-    height: 19em;
+    height: auto;
   }
   .info, .internship {
     width: 19.5em;
@@ -1172,7 +1173,7 @@ select, .paymentID, .info, .internship {
     font-size: 1em;
   }
   .carousel .carousel-item {
-    height: 22em;
+    height: auto;
   }
   .carousel-content h4 {
     font-size: 1.3em;
@@ -1329,7 +1330,7 @@ select, .paymentID, .info, .internship {
     font-size: 1em;
   }
   .carousel .carousel-item {
-    height: 22em;
+    height: auto;
   }
   .carousel-content h4 {
     font-size: 1.3em;
@@ -1488,7 +1489,7 @@ select, .paymentID, .info, .internship {
     font-size: 1em;
   }
   .carousel .carousel-item {
-    height: 22em;
+    height: auto;
   }
   .carousel-content h4 {
     font-size: 1.3em;
@@ -1687,7 +1688,7 @@ select, .paymentID, .info, .internship {
     font-size: 1em;
   }
   .carousel .carousel-item {
-    height: 22em;
+    height:auto;
   }
   .carousel-content h4 {
     font-size: 1.3em;
@@ -1858,7 +1859,7 @@ select, .paymentID, .info, .internship {
     font-size: 1em;
   }
   .carousel .carousel-item {
-    height: 26em;
+    height: auto;
   }
   .carousel-content h4 {
     font-size: 1.7em;
@@ -2136,7 +2137,7 @@ select, .paymentID, .info, .internship {
     font-size: 1em;
   }
   .carousel .carousel-item {
-    height: 26em;
+    height: auto;
   }
   .carousel-content h4 {
     font-size: 1.7em;
