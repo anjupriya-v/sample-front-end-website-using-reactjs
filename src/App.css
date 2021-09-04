@@ -1838,10 +1838,10 @@ select, .paymentID, .info, .internship {
 
 @media (min-width:721px) and (max-width:1440px) {
   .cart h4{
-    font-size: 2.3em;
+    font-size: 2em;
   }
   .cart p{
-    font-size: 1.5em;
+    font-size: 1.4em;
   }
   .mentorshipTitle{
     font-size: 3.2em;
