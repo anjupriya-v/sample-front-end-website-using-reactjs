@@ -6,7 +6,7 @@ $ https://sample-website-using-react-js.herokuapp.com/
 
 - Clone the repository
 
-$ 
+$ git clone https://github.com/anjupriya-v/sample-front-end-website-using-reactjs.git
 
 - Redirect to the cloned repo directory
 
