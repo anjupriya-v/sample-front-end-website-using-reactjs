@@ -116,8 +116,8 @@ export default function FloatingActionButtons() {
       >
         <div className="cart" >
           <i className="fa fa-shopping-bag fa-7x" aria-hidden="true"></i>
-          <h2>The Cart is Empty</h2>
-          <h5>Please make a login to purchase</h5><button className="btn btn-primary" data-toggle="modal" data-target="#modalLoginForm" >Login</button>
+          <h4>The Cart is Empty</h4>
+          <p>Please make a login to purchase</p><button className="btn btn-primary" data-toggle="modal" data-target="#modalLoginForm" >Login</button>
         </div>
       </SlidingPane>
       <div className="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
@@ -133,73 +133,73 @@ export default function FloatingActionButtons() {
               </div>
               {displaySignIn && <div>
                 <form>
-                <div className="modal-body mx-5">
-                  <div className="container">
-                    
-                    <table >
-                      <tr >
-                        <td>Email:</td>
-                        <td ><input required type="email" id="defaultForm-email" className="form-control validate" /></td>
-                      </tr>
-                      <tr>
-                        <td>Password:</td>
-                        <td><input required type="password" id="defaultForm-pass" className="form-control validate" /></td>
-                      </tr>
-                    </table>
+                  <div className="modal-body mx-5">
+                    <div className="container">
+
+                      <table >
+                        <tr >
+                          <td>Email:</td>
+                          <td ><input required type="email" id="defaultForm-email" className="form-control validate" /></td>
+                        </tr>
+                        <tr>
+                          <td>Password:</td>
+                          <td><input required type="password" id="defaultForm-pass" className="form-control validate" /></td>
+                        </tr>
+                      </table>
+                    </div>
                   </div>
+                  <div className="d-flex justify-content-center">
+                    <button className="btn btn-primary " type="submit">Login</button>
+                  </div>
+                </form>
+                <div className="accountButton">
+                  <span >New User?</span><a href="#" onClick={() => {
+                    setLoginHeading("Registration")
+                    setDisplaySignIn(false)
+                    setDisplaySignUp(true)
+                  }}>Click here to register</a>
                 </div>
-                <div className="d-flex justify-content-center">
-                  <button className="btn btn-primary " type="submit">Login</button>
-                  </div>
-                  </form>
-                  <div className="accountButton">
-                    <span >New User?</span><a href="#" onClick={() => {
-                      setLoginHeading("Registration")
-                      setDisplaySignIn(false)
-                      setDisplaySignUp(true)
-                    }}>Click here to register</a>
-                  </div>
-                </div>}
+              </div>}
               {displaySignUp && <div>
                 <form>
-                <div className="modal-body mx-5">
-                  <div className="container">
-                    <table>
-                      <tr>
-                        <td>First Name:</td>
-                        <td><input required type="name" id="defaultForm-name" className="form-control validate" /></td>
-                      </tr>
-                      <tr>
-                        <td>Last Name:</td>
-                        <td><input required type="name" id="defaultForm-name" className="form-control validate" /></td>
-                      </tr>
-                      <tr>
-                        <td>Email:</td>
-                        <td><input required type="email" id="defaultForm-email" className="form-control validate" /></td>
-                      </tr>
-                      <tr>
-                        <td>Password:</td>
-                        <td><input required type="password" id="defaultForm-pass" className="form-control validate" /></td>
-                      </tr>
-                      <tr>
-                        <td>Confirm Password</td>
-                        <td><input required type="password" id="defaultForm-pass" className="form-control validate" /></td>
-                      </tr>
-                    </table>
+                  <div className="modal-body mx-5">
+                    <div className="container">
+                      <table>
+                        <tr>
+                          <td>First Name:</td>
+                          <td><input required type="name" id="defaultForm-name" className="form-control validate" /></td>
+                        </tr>
+                        <tr>
+                          <td>Last Name:</td>
+                          <td><input required type="name" id="defaultForm-name" className="form-control validate" /></td>
+                        </tr>
+                        <tr>
+                          <td>Email:</td>
+                          <td><input required type="email" id="defaultForm-email" className="form-control validate" /></td>
+                        </tr>
+                        <tr>
+                          <td>Password:</td>
+                          <td><input required type="password" id="defaultForm-pass" className="form-control validate" /></td>
+                        </tr>
+                        <tr>
+                          <td>Confirm Password</td>
+                          <td><input required type="password" id="defaultForm-pass" className="form-control validate" /></td>
+                        </tr>
+                      </table>
+                    </div>
                   </div>
+                  <div className="d-flex justify-content-center">
+                    <button className="btn btn-primary">Sign Up</button>
+                  </div>
+                </form>
+                <div className="accountButton">
+                  <span>Already have an account?</span><a href="#" onClick={() => {
+                    setLoginHeading("Sign In")
+                    setDisplaySignUp(false)
+                    setDisplaySignIn(true)
+                  }}>Click here to sign In</a>
                 </div>
-                <div className="d-flex justify-content-center">
-                  <button className="btn btn-primary">Sign Up</button>
-                  </div>
-                  </form>
-                  <div className="accountButton">
-                    <span>Already have an account?</span><a href="#" onClick={() => {
-                      setLoginHeading("Sign In")
-                      setDisplaySignUp(false)
-                      setDisplaySignIn(true)
-                    }}>Click here to sign In</a>
-                  </div>
-                </div>}
+              </div>}
             </div>
           </div>
         </div>
