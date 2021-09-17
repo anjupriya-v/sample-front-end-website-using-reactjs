@@ -10,8 +10,6 @@ $ git clone https://github.com/anjupriya-v/sample-front-end-website-using-reactj
 
 - Redirect to the cloned repo directory
 
-$ cd sample-front-end-website-using-reactjs
-
 - Install the dependencies
 
 `npm install`
