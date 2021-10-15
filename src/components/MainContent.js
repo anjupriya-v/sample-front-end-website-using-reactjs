@@ -42,7 +42,7 @@ class MainContent extends React.Component {
     return (
       <div className="container mt-5">
         <div className="row">
-          <div className="col-lg-8 col-md-8 col-xs-12">
+          <div className="col-lg-8  col-xs-12">
             <div className="dropdownContainer smallerDevice">
               <div className="allPosts">
                 <h6>All Posts (32)</h6>
@@ -107,7 +107,7 @@ class MainContent extends React.Component {
               </div>
             </SwipeableViews>
           </div>
-          <div className="col-lg-4 col-xs-12 col-md-4">
+          <div className="col-lg-4 col-xs-12 ">
             <div className="actionsContainer ">
               <button className="btn btn-secondary firstButton pr-3">
                 <span className="mr-3">Write Post</span>
