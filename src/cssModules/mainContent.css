@@ -1,0 +1,129 @@
+.groupIcon {
+  color: black;
+}
+.notice {
+  color: rgb(119, 117, 117);
+}
+.cardImage {
+  height: 300px;
+  object-fit: cover;
+}
+.groups {
+  text-align: center;
+}
+.cardContainer {
+  color: black;
+}
+.article {
+  padding-left: 10px;
+}
+.profileImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.profileName {
+  font-weight: bolder;
+}
+.cardFooter,
+.groupsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inputContainer,
+.actionsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.locationInput {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  padding-left: 0.5em;
+  border-bottom: 1px solid rgb(168, 167, 167);
+}
+input.locationInput:focus {
+  outline: none;
+}
+@media (min-width: 0px) and (max-width: 320px) {
+  .cardFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media (min-width: 0px) and (max-width: 1024px) {
+  .largerDevice {
+    display: none;
+  }
+  .navbar {
+    display: none;
+  }
+  .MuiTabs-flexContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .actionsContainer {
+    flex-direction: column;
+  }
+  .actionsContainer .firstButton {
+    margin-bottom: 1em;
+  }
+  .dropdownContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cardImage {
+    height: 150px;
+    object-fit: cover;
+  }
+  .cardTitle {
+    font-size: 1em;
+    font-weight: bolder;
+  }
+  .cardText {
+    font-size: 0.9em;
+  }
+}
+@media (min-width: 770px) and (max-width: 1024px) {
+  .largerDevice {
+    display: block;
+  }
+  .smallerDevice {
+    display: none;
+  }
+  .navbar {
+    display: block;
+  }
+  .MuiTabs-flexContainer {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .actionsContainer .firstButton {
+    margin-right: 1.5em;
+  }
+}
+@media (min-width: 1441px) {
+  .largerDevice {
+    display: block;
+  }
+  .smallerDevice {
+    display: none;
+  }
+  .navbar {
+    display: block;
+  }
+  .MuiTabs-flexContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  .actionsContainer .firstButton {
+    margin-right: 1.5em;
+  }
+}

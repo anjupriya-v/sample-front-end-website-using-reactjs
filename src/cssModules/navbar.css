@@ -1,0 +1,79 @@
+.brandLogo {
+  width: 200px;
+  height: 50px;
+}
+nav {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.searchField {
+  border: 1px solid rgb(197, 195, 195);
+  border-radius: 0px 20px 20px 0px !important;
+  border-left: none;
+  width: 20em !important;
+  background-color: rgb(228, 225, 225);
+}
+input.form-control:focus {
+  border: 1px solid rgb(197, 195, 195);
+  background-color: rgb(228, 225, 225);
+  border-left: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.iconDiv {
+  background-color: rgb(228, 225, 225);
+  border: 1px solid rgb(197, 195, 195);
+  border-radius: 20px 0px 0px 20px !important;
+  padding: 5.7px;
+  padding-left: 1em;
+  border-right: none;
+}
+.accountButton {
+  cursor: pointer;
+}
+.create {
+  color: blue;
+}
+.modal-content {
+  background-color: transparent !important;
+  border: none;
+}
+.modalButton {
+  color: white;
+}
+.smallDeviceButton {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.modal-body,
+.modal-footer {
+  background-color: white;
+}
+.createAccountImageContainer {
+  background-image: url(https://www.atg.world/public/assets/Frontend/img/login_logo.svg);
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.topTextContainer {
+  background-color: rgb(196, 243, 219);
+  text-align: center;
+  padding: 5px;
+  padding-top: 12px;
+  color: green;
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .searchField {
+    width: 15em !important;
+  }
+  .brandLogo {
+    width: 170px;
+    height: 40px;
+  }
+}
