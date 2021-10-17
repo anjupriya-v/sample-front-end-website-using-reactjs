@@ -5,8 +5,8 @@ import SwipeableViews from "react-swipeable-views";
 import Posts from "./Posts";
 import postData_one from "../Data/postData_one";
 import postData_two from "../Data/postData_two";
+import groupData from "../Data/groupData";
 import "../cssModules/mainContent.css";
-import profileImage from "../Images/profileImage.jpg";
 const styles = {
   tabs: {
     background: "#fff",
@@ -21,7 +21,7 @@ class MainContent extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      groups: ["Leisure", "Activism", "MBA", "Philosophy"],
+      groups: groupData,
     };
   }
   state = {
@@ -37,6 +37,7 @@ class MainContent extends React.Component {
       index,
     });
   };
+
   render() {
     const { index } = this.state;
     return (
@@ -148,11 +149,11 @@ class MainContent extends React.Component {
                   <div className="groupsContainer mt-4">
                     <div>
                       <img
-                        src={profileImage}
+                        src={group.image}
                         alt="profileImage"
                         className="profileImage"
                       />
-                      <span>{group}</span>
+                      <span className="ml-2">{group.title}</span>
                     </div>
                     <div>
                       <button className="btn">Follow</button>

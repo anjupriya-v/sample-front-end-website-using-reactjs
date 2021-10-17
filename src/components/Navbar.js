@@ -2,7 +2,15 @@ import React from "react";
 import "../cssModules/navbar.css";
 import SignupModal from "./SignupModal";
 import LoginModal from "./LoginModal";
-import logo from "../Images/logo.png";
+import img1 from "../Images/img1.png";
+import img2 from "../Images/img2.png";
+import img3 from "../Images/img3.png";
+import img4 from "../Images/img4.png";
+import img5 from "../Images/img5.png";
+import img6 from "../Images/img6.png";
+import img7 from "../Images/img7.png";
+import img8 from "../Images/img8.png";
+
 const Navbar = () => {
   return (
     <div>
@@ -28,7 +36,14 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div className="container navContainer">
           <div className="logoContainer">
-            <img className="navbar-brand brandLogo" src={logo} alt="atgLogo" />
+            <img className="navbar-brand " src={img1} alt="atgLogo1" />
+            <img className="navbar-brand " src={img2} alt="atgLogo2" />
+            <img className="navbar-brand " src={img3} alt="atgLogo3" />
+            <img className="navbar-brand " src={img4} alt="atgLogo4" />
+            <img className="navbar-brand " src={img5} alt="atgLogo5" />
+            <img className="navbar-brand " src={img6} alt="atgLogo6" />
+            <img className="navbar-brand " src={img7} alt="atgLogo7" />
+            <img className="navbar-brand " src={img8} alt="atgLogo8" />
           </div>
           <div className="searchFieldContainer">
             <form className="form-inline my-2 my-lg-0">

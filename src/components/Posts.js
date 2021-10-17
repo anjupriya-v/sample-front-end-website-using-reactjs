@@ -1,6 +1,5 @@
 import React from "react";
 import "../cssModules/mainContent.css";
-import profileImage from "../Images/profileImage.jpg";
 const Posts = (props) => {
   return (
     <div>
@@ -10,12 +9,11 @@ const Posts = (props) => {
             <img
               className="card-img-top cardImage"
               src={post.image}
-              alt="Card image cap"
+              alt="postImage"
             ></img>
             <div className="card-body ">
               <div className="container">
-                <i className="fa fa-pencil" aria-hidden="true"></i>
-                <span className="article">Article</span>
+                <span className="article">{post.basedOn}</span>
                 <div className="mt-3 ">
                   <h4 className="card-title cardTitle">{post.title}</h4>
                 </div>
@@ -25,15 +23,15 @@ const Posts = (props) => {
             <div className="card-footer cardFooter text-muted">
               <div className="profileContainer">
                 <img
-                  src={profileImage}
+                  src={post.person}
                   className="profileImage"
                   alt="post_profileImage"
                 />
-                <span className="profileName pl-2">ATG User</span>
+                <span className="profileName pl-2">{post.personName}</span>
               </div>
               <div className="moreActions">
                 <i className="fa fa-eye" aria-hidden="true"></i>
-                <span className="mr-3">{post.views}</span>
+                <span className="mr-3">1.4k views</span>
                 <i className="fa fa-share-alt" aria-hidden="true"></i>
               </div>
             </div>
