@@ -1,4 +1,4 @@
-# sample-front-end-website-using-reactjs
+# sample-website-using-reactjs
 
 ## Live Demo:
 $ https://sample-website-using-react-js.herokuapp.com/
