@@ -39,7 +39,7 @@ class SignupModal extends Component {
                         <div className="form-group col-md-6">
                           <label for="inputFirstName">First Name</label>
                           <input
-                            type="email"
+                            type="text"
                             className="form-control"
                             id="inputFirstName"
                             placeholder="First Name"
@@ -48,7 +48,7 @@ class SignupModal extends Component {
                         <div className="form-group col-md-6">
                           <label for="inputLastName">Last Name</label>
                           <input
-                            type="password"
+                            type="text"
                             className="form-control"
                             id="inputLastName"
                             placeholder="Last Name"
@@ -58,7 +58,7 @@ class SignupModal extends Component {
                       <div className="form-group">
                         <label for="inputEmail">Email</label>
                         <input
-                          type="text"
+                          type="email"
                           className="form-control"
                           id="inputEmail"
                           placeholder="abc@gmail.com"
