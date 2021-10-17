@@ -61,7 +61,7 @@ const Navbar = () => {
           <div className="accountButton">
             <div className="dropdown">
               <a
-                className="dropdown-toggle "
+                className="dropdown-toggle nav-link"
                 id="dropdownMenuButton"
                 data-toggle="dropdown"
                 aria-haspopup="true"
